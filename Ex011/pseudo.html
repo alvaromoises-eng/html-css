@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Pseudo</title>
+    <style>
+        div{
+            background-color: rgb(203, 203, 16);
+            height: 200px;
+            width: 200px;
+            border: 1px solid blue;
+            display: inline-block;
+            text-align: center;
+        }
+        
+        div#d2{
+            background-color: rgb(11, 138, 72);
+            color: white;
+        }
+        div#d4{
+            height: 20px;
+        }
+        div:hover{
+             background-color: rgb(221, 136, 7);
+        }
+        div >p{
+            display: none;
+        }
+        div:hover >p{
+            display: block;
+            color: rgb(224, 34, 0);
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Pseudo-classes</h1>
+    <div id="d1">Elemntos</div>
+    <div id="d2">Conjuntos</div>
+    <div id="d3">Atributos</div>
+    <br>
+    
+    <div id="d4">TEXTO ESCONDIDO
+        <p>Mostrar o texto escondido</p>
+    </div>
+<br> <!--Quebra de linha-->
+<pre> <!--Quebrar a linha com o ENTER-->
+    
+</pre>
+    <button>
+        <a href="fontes.html">Voltar para fontes</a>
+    </button>
+    <p><a href="pseudo2.html">Ir para página 2 do Pseudo</a></p>
+</body>
+</html>

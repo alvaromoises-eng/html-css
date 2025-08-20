@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo 2</title>
+    <style>
+        a{
+            color: rgb(131, 215, 6);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+            color: brown;
+            text-decoration: underline;
+        }
+        a:active{
+            color: rgb(42, 7, 197);
+        }
+        .especial{
+            color: rgb(6, 124, 25);
+        }
+        .especial::before{
+            link;
+        }
+        a::after{
+            content: " [»»»»]";
+            font-weight: normal;
+            color: rgb(237, 207, 168);
+        }
+    </style>
+</head>
+<body>
+    <h1>Segunda Página do Pseudo</h1>
+    <ul>
+        <li><a href="fontes.html" class="especial">Página das fontes</a></li>
+        <li><a href="pseudo.html">Página do Pseudo 1</a></li>
+        <li><a href="">Página sem link</a></li>
+        
+    </ul>
+</body>
+</html>
