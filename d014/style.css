@@ -1,0 +1,40 @@
+@charset ("UTF-8");
+
+
+header{
+    background-color: rgb(2, 2, 109);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+}
+p > a {
+    color: rgb(24, 219, 241);
+    text-decoration: none;
+}
+p{
+    line-height: 2em;
+}
+a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+section{
+    padding-left:  10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+section.normal{
+    background-color: rgb(252, 252, 252);
+}
+section.imagem {
+    background-color: rgb(75, 75, 75);
+    color: white;
+
+}
+footer{
+    background-color: rgb(2, 2, 109);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
