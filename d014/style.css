@@ -1,19 +1,43 @@
 @charset ("UTF-8");
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Courgette&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --fonte1: "Courgette", cursive;
+    
+}
+
 
 header{
     background-color: rgb(2, 2, 109);
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     text-align: center;
     color: white;
+    
+}
+header > h1 {
+    font-size: 3em;
+     font-size: 50px;
+}
+header > p {
+    padding-bottom: 20px;
+    font-size: 20px;
+    
 }
 p > a {
     color: rgb(24, 219, 241);
     text-decoration: none;
+    
 }
 p{
     line-height: 2em;
+}
+section > p {
+    font-family: var(--fonte1);
+    padding-bottom: 2em;
+    font-size: 1.5em
+    
 }
 a:hover{
     color: yellow;
@@ -21,20 +45,40 @@ a:hover{
 }
 section{
     padding-left:  10px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
 }
 section.normal{
     background-color: rgb(252, 252, 252);
+    
 }
 section.imagem {
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(0, 0, 0);
     color: white;
-
+    box-shadow:inset 10px 10px 10px rgba(0, 0, 0, 0.411);
+    background-attachment: fixed;
+}
+.imagem#img01{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.imagem#img02{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-position: center center;
+   
+}
+.imagem > p {
+    background-color: rgba(0, 0, 0, 0.367);
+    width: 300px;
+    padding-left: 10px
+    
+;
 }
 footer{
     background-color: rgb(2, 2, 109);
-    padding: 20px;
+    padding: 0.5px;
     color: white;
     text-align: center;
 }
