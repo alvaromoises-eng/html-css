@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        tr.cabeca{
+            background-color: yellow;
+            text-align: center;
+        }
+        td.destaque{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="cabeca">
+            <td>NOME</td>
+            <td>NÚMERO</td>
+            <td>CARGO</td>
+        </tr>
+        <tr>
+            <td>Manuel</td>
+            <td>234</td>
+            <td>Gestor</td>
+        </tr>
+        <tr>
+            <td>Joaquim</td>
+            <td>475</td>
+            <td>Promotor</td>
+        </tr>
+        <tr>
+            <td>Afonso</td>
+            <td>867</td>
+            <td class="destaque">Atendente</td>
+        </tr>
+    </table>
+</body>
+</html>

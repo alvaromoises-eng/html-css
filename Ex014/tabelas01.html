@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas extensa</title>
+    <style>
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+        thead, tfoot{
+            background-color: rgb(160, 160, 160);
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px;
+            
+        }
+        .numero{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Empresa</th>
+                <th>Grupo</th>
+                <th>Local</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Aury</td>
+                <td>ALMO</td>
+                <td>BV Street</td>
+            </tr>
+            <tr>
+                <td>Grafstudio</td>
+                <td>CONZUA</td>
+                <td>Ingo Street</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <td class="numero"><strong>2.000.000</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
