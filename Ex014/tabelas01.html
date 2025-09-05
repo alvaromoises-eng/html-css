@@ -8,23 +8,42 @@
         td, th {
             border: 1px solid black;
             padding: 10px;
-            
+        }
+        caption{
+            font-size: 30px;
         }
         thead, tfoot{
             background-color: rgb(160, 160, 160);
         }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(160, 160, 160)
+        ;
+        }
         table{
             border-collapse: collapse;
             width: 500px;
+            position: relative;
             
         }
         .numero{
             text-align: right;
         }
+        tbody > tr:nth-child(even){
+            background-color: rgb(245, 142, 7);
+        }
+        tbody > tr:nth-child(odd){
+            background-color: rgb(218, 246, 93);
+        }
+        table.texte {
+            background-color: rgb(233, 197, 154);
+        }
     </style>
 </head>
 <body>
     <table>
+        <caption>Tabele de Controle</caption>
         <thead>
             <tr>
                 <th>Empresa</th>
@@ -43,6 +62,21 @@
                 <td>CONZUA</td>
                 <td>Ingo Street</td>
             </tr>
+            <tr>
+                <td>BBD</td>
+                <td>Scroll</td>
+                <td>Caz</td>
+            </tr>
+            <tr>
+                <td>call</td>
+                <td>zum</td>
+                <td>full</td>
+            </tr>
+            <tr>
+                <td>sam</td>
+                <td>pim</td>
+                <td>ohm</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
@@ -51,5 +85,6 @@
             </tr>
         </tfoot>
     </table>
+    
 </body>
 </html>
