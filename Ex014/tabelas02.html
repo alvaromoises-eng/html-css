@@ -7,12 +7,26 @@
     <style>
         table {
             width: 400px;
-            
         }
-        td {
+        table.nova {
+            width: 500px;
+            height: 70px;
+            border-collapse: collapse;
+        }
+        table.nova td, th {
+           
+            text-align: left;
+        }
+        td,th {
             border: 1px solid black;
             padding: 10px;
+              text-align: center;
+        }
+        td.numero {
             text-align: center;
+        }
+        th {
+            background-color: rgb(156, 155, 155);
         }
     </style>
 </head>
@@ -69,7 +83,67 @@
             <td>M</td>
         <tr>
             <td colspan="4">N</td>
+        </tr>
+    </table>
+    <h1>Desafio de tabelas 3</h1>
+    <table class="nova">
+        <tr>
+            <th rowspan="2">Área</th>
+            <th rowspan="2">Disciplina</th>
+            <th colspan="2">Nota</th>
+            <th rowspan="2">Média</th>
             
         </tr>
+        <tr>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+        </tr>
+        <tr>
+            <td rowspan="4">Exatas</td>
+            <td>Matemática</td>
+            <td class="numero">12</td>
+            <td>13</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>Física</td>
+            <td>14</td>
+            <td>11</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>Química</td>
+            <td>12</td>
+            <td>10</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>Biologia</td>
+            <td>15</td>
+            <td>11</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <th colspan="4">Média de Exata</th>
+            <th>30</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Humanas</td>
+            <td>História</td>
+            <td>23</td>
+            <td>32</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Geografia</td>
+            <td class="numero">21</td>
+            <td>12</td>
+            <td>33</td>
+        </tr>
+        <tr>
+            <th colspan="4">Média de Humanas</th>
+            <th>23</th>
+        </tr>
+    </table>
 </body>
 </html>
