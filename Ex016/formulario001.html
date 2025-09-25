@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Preenchivel</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>DADOS PESSOAIS</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required placeholder="Primeiro Nome">
+            </p>
+             <p>
+                <label for="isobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="isobrenome" required placeholder="Último Nome">
+            </p>
+            <p>
+                <label for="iidade">Idade:</label>
+                <input type="number" name="idade" id="iidade">
+            </p>
+            <p>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" id="iemail">
+            </p>
+            <p>
+                <label for="ifone">Telefone:</label>
+                <input type="tel" name="tel" id="itel">
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>PERIODO LETIVO</legend>
+            <p>
+                <label for="imedia">Média:</label>
+                <input type="number" name="media" id="imedia" required placeholder="0 à 10" max="10" step="0.5" >
+            </p>
+            <p>
+                <label for="iperiodo">Periodo Lectivo:</label>
+                <input type="month" name="periodo" id="iperiodo" required placeholder="Mês e Ano">
+            </p>
+            <p>
+                <label for="idata">Data:</label>
+                <input type="date" name="data" id="idata">
+            </p>
+            <p>
+                <label for="ihora">Hora:</label>
+                <input type="time" name="hora" id="ihora">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Cadastrar">
+            <input type="reset" value="Limpar">
+        </p>   
+    </form>
+</body>
+</html>
