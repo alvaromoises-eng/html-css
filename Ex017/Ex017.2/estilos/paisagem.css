@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/*estilos gerais*/
+body, body {
+    background-image: url('../imagens/cev-landscape.jpg');
+}
+h1{
+    color: white;
+}

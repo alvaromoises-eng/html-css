@@ -10,6 +10,10 @@ body{
 ul{
     display: none;
 }
-article::after{
-    content: Site Gerado por Álvaro Moisés;
+article:after{
+    content: 'Site Gerado por Álvaro Moisés';
+    color: brown;
+}
+header > h1 {
+    color: brown;
 }
