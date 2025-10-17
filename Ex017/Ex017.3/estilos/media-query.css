@@ -36,7 +36,7 @@ img{
     img#pc{display: none;}
     img#tela{display: none}   
 }        
-/* tela tablet*/
+/* tela tablet */
 @media screen and (min-width: 700px) and (max-width: 992px) {
     body{
         background-image: url(../imagens/back-tablet.jpg);
@@ -46,7 +46,7 @@ img{
     img#pc{display: none;}
     img#tela{display: none}  
 }
-/* tela pc*/
+/* tela pc */
 @media screen and (min-width: 992px) and (max-width: 1200px){
     body{
         background-image: url(../imagens/back-pc.jpg);
@@ -59,6 +59,7 @@ img{
     img#pc{display: block;}
     img#tela{display: none}  
 }
+/* tela tv */
 @media screen and (min-width: 1200px) {
     body{
         background-image: url(../imagens/back-tv.jpg);
