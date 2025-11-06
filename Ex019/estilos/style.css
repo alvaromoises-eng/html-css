@@ -12,15 +12,15 @@ html{
 }
 main{
     background-color: white;
-    width:300px;
-    height: 550px;
+    width:270px;
+    height: 530px;
     border-radius: 10px;
     margin: auto;
     padding: 10px;
 }
 div#foto{
     background-image: url(../imagens/foto.empresa.jpeg);
-    width: 300px;
+    width: 270px;
     height: 200px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -44,7 +44,7 @@ p > input[type=submit]{
     background-color: rgb(14, 22, 236);
     color: white;
     padding: 10px;
-    width: 280px;
+    width: 247px;
     border: none;
     font-size: 20px;
 }
@@ -56,7 +56,7 @@ p > input[type=reset]{
     background-color: rgb(5, 9, 118);
     color: white;
     padding: 10px;
-    width: 280px;
+    width: 247px;
     border: none;
     font-size: 20px;
 }
