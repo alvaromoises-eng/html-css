@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    background-size: cover;
+    background-image: url(../imagens/fundo-geral.jpg)
+    
+}
+main{
+    background-color: white;
+    width:350px;
+    height: 550px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+}
+div#foto{
+    background-image: url(../imagens/foto.empresa.jpeg);
+    width: 350px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: cover;
+}
+div#form{
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div#form > h1 {
+    text-align: center;
+    padding-bottom: 10px;
+    color: blue
+}
+p.campo{
+    color: rgb(12, 6, 180);
+    padding-top: 15px;
+    height: 15px;
+}
+p > input[type=submit]{
+    background-color: rgb(14, 22, 236);
+    color: white;
+    padding: 10px;
+    width: 318px;
+    border: none;
+    font-size: 20px;
+}
+p > input[type=submit]:hover{
+    background-color: rgb(0, 221, 255);
+    color: rgb(14, 0, 86);
+}
+p > input[type=reset]{
+    background-color: rgb(5, 9, 118);
+    color: white;
+    padding: 10px;
+    width: 318px;
+    border: none;
+    font-size: 20px;
+}
+p > input[type=reset]:hover{
+    background-color: red;
+    color: white;
+}
