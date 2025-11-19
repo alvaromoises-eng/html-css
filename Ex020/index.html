@@ -5,30 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox</title>
     <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
         body{
             background-color: antiquewhite;
         }
-        div.pai{
-            background-color: aqua;
+        main{
+            background-color: salmon;
+            height: 600px;
             display: flex;
-            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
         }
-        div.filho{
-            background-color: rgb(233, 246, 48);
-            flex: auto;
-            border: 1px solid black;
-            text-align: center;
+        section{
+            background-color: aqua;
+            height: 200px;
+            width: 200px;
+            align-items: center;
+    
         }
+        
     </style>
 </head>
 <body>
-    <div class="pai">
-        <div class="filho">Bloco A do segundo momento</div>
-        <div class="filho">Bloco B do segundo momento</div>
-        <div class="filho">Bloco C do segundo momento</div>
-        <div class="filho">Bloco D do segundo momento</div>
-        <div class="filho">Bloco E do segundo momento</div>
-        
-    </div>
+    <main>
+        <section>
+            <h1>Tela de Login</h1>
+        </section>
+    </main>
 </body>
 </html>
