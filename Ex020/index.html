@@ -12,28 +12,38 @@
         body{
             background-color: antiquewhite;
         }
-        main{
-            background-color: salmon;
-            height: 600px;
+        .pai{
+            background-color: lightsalmon;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            flex-flow: row nowrap;
         }
-        section{
+        .filho{
             background-color: aqua;
-            height: 200px;
-            width: 200px;
-            align-items: center;
-    
+            border: 1px solid black;
+            flex-basis: 200px;
         }
-        
+        #cx1{
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+        #cx2{
+            flex-shrink: 4;
+            flex-grow: 2;
+            
+        }
+        #cx3{
+            flex-shrink: 2;
+            flex-grow: 4;
+        }
     </style>
 </head>
 <body>
-    <main>
-        <section>
-            <h1>Tela de Login</h1>
-        </section>
-    </main>
+     <div class="pai">
+         <div class="filho" id="cx1">Tela 1</div>
+        <div class="filho" id="cx2">Tela 2</div>
+         <div class="filho" id="cx3">Tela 3</div>
+         
+         
+    </div>
 </body>
 </html>
