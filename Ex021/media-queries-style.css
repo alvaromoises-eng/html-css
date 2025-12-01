@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+@media (max-width: 759px){
+    header{
+        flex-wrap: wrap;
+        height: 100px;
+    }
+}
+
+@media (max-width: 560px){
+    header{
+        flex-flow: column;
+        height: 290px;
+        
+    }
+    nav{
+        display: contents;
+        
+    }
+    a{
+        width: 90vw;
+        text-align: center;
+    }
+}
