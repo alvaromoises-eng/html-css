@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+
+section{
+    background-color: rgb(202, 202, 202);
+    
+    display: flex;
+
+    img{
+        width: 250px;
+    }
+
+    iframe{
+       
+    }
+}
+
+.media-text{
+        
+        flex-flow: row wrap-reverse;
+
+         p{
+            flex: 1 0 300px;
+        }
+        
+    
+    }
+
+.text-media{
+        
+        flex-flow: row wrap;  
+    
+    }
+
+article {
+            flex: 1 0 500px;
+        }
