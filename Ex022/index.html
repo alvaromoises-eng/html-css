@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container{
+            border: 2px solid red;
+            display: grid;
+            height: 200px;
+            gap: 10px
+            ;
+            grid-template-rows: repeat(3, 100px);
+            grid-template-columns: repeat(4, 1fr);
+
+            .filho1{
+                background-color: aqua;
+                grid-row-start: 1;
+                grid-row-end: 2;
+                grid-column-start: 1;
+                grid-column-end: 5;
+            }
+            .filho2{
+                background-color: blueviolet;
+                grid-row-start: 2;
+                grid-row-end: 4;
+                grid-column-start: 1;
+                grid-column-end: 3;
+            }
+            .filho3{
+                background-color: rgb(238, 238, 41);
+                grid-row-start: 2;
+                grid-row-end: 3;
+                grid-column-start: 3;
+                grid-column-end: 5;
+            }
+            .filho4{
+                background-color: brown;
+                grid-row-start: 3;
+                grid-row-end: 4;
+                grid-column-start: 3;
+                grid-column-end: 5;
+            }
+        }
+    </style>
+        
+</head>
+<body>
+    <div class="container">
+        <div class="filho1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure accusamus vero corrupti eius? Odit, eum mollitia veritatis optio omnis ratione temporibus natus similique blanditiis, sunt voluptates consequatur iste quis reprehenderit! odit tempora.</div>
+        <div class="filho2">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, ad enim! Reiciendis id voluptatem, ut quia ad eius ex neque eos ipsam itaque. Officia tenetur enim exercitationem architecto eveniet excepturi.</p>
+        </div>
+        <div class="filho3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsam impedit incidunt nulla corporis sequi quia nostrum exercitationem numquam totam nemo, deserunt iure placeat tempora ratione rem optio. Consequuntur, neque?</div>
+        <div class="filho4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, amet autem? Facere, blanditiis eius perferendis natus illum incidunt minima, quo assumenda, cupiditate officia culpa ipsa excepturi itaque! Impedit, eum vel.</div>
+    </div>
+</body>
+</html>
