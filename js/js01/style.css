@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+#clique {
+    background-color: rgb(241, 156, 106);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    align-content: center;
+}
