@@ -14,15 +14,13 @@
     <div id="result">Resultado</div>
 
     <script>
-       function somar() {
-        var tn1 = window.document.getElementById('txtn1')
-        var tn2 = window.document.getElementById('txtn2')
-        var res = window.document.getElementById('result')
-        var n1 = Number(tn1.value)
-        var n2 = Number(tn2.value)
-        var s = n1 + n2
-        result.innerHTML = `A soma de ${n1} e ${n2} é igual a <strong>${s}</strong>f` 
-       }
+       var pais = 'EUA'
+            document.write(`vivendo em ${pais}`)
+            if (pais=='Brasil') {
+                documentff('voce é brasileiro')
+            } else{
+                console.log('voce é Estrangeiro')
+            }
     </script>
 </body>
 </html>
